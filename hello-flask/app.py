@@ -12,10 +12,10 @@ CORS(app)
 def call_databse(query, type="select"):
     try:
         connection = pymysql.connect(
-            host="162.144.4.132",
+            host="",
             database="shelbith_main",
             user="shelbith_super_user",
-            password="Louise2016Clem",
+            password="",
             port=3306,
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor)
